@@ -88,6 +88,15 @@
   border-radius: 3px;    
 }
 
+.child_2_2 {
+  background-color: rgba(157, 2, 8, 1);
+  padding: 20px;
+  margin: 10px;
+  width: 60px;
+  height: 17px;
+  border-radius: 3px;
+}
+
 
 /* Parent_4 and Children */ 
 
@@ -128,12 +137,12 @@
 
 .child_3:nth-of-type(3) {
   align-self:flex-end;
-  margin-right: 10px;
+  margin-right: -40px;
   margin-bottom: 10px;
 }
 
 
-/* Parent_5 and Chilren */
+/* Parent_5 and Children */
 
 .parent_5  {
   width: 450px;
