@@ -1,29 +1,37 @@
 .flex-container {
-  width: 1030px;
-  height: 600px;
+  width: 1000px;
+  height: 500px;
   background: rgba(55, 6, 23, 1);
-  margin-top: 80px;
-  margin-left: 220px;
-  padding-top: 20px;
-  margin-bottom: 20px;
   padding-left: 20px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;  
+  flex-direction: column;
+  margin: 0 auto; 
+  margin-top: 20px;
+ 
 }   
  
-/* Parent_1 and Children */
+/* Parents and Children */
+
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
 
 .parent_1 {
   width: 450px;
   height: 130px ;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 20px;
+  
   background: rgba(244, 140, 6, 1);
   border-radius: 8px;
-  flex-wrap: wrap; 
   display: flex;
-  flex-direction: row; 
   justify-content:flex-start;
   align-items: end;
 }
@@ -42,13 +50,11 @@
 .parent_2  {
   width: 450px;
   height:130px;   
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
   background: rgba(244, 140, 6, 1);
   border-radius: 8px;
-  flex-wrap: wrap;  
   display: flex;
-  flex-direction: row; 
   justify-content:center; 
   align-items:stretch;    
 }
@@ -67,14 +73,11 @@
 .parent_3  {
   width: 450px;
   height: 130px;
-  
   display: flex;
-  margin-top: 30px;
   margin-left: 20px;
+  padding-top: 0px;
   background: rgba(244, 140, 6, 1);
   border-radius: 8px;
-  display: flex;
-  flex-direction: row; 
   justify-content:flex-end;
   align-items: center;        
 }
@@ -103,8 +106,6 @@
 .parent_4 {
   width: 450px;
   height: 130px ;
-  margin-top:30px;
-  margin-left: 20px;
   background: rgba(244, 140, 6, 1);
   border-radius: 8px;
   flex-wrap: wrap;  
@@ -146,14 +147,12 @@
 
 .parent_5  {
   width: 450px;
-  height: 130px ;
-  margin-top: 30px;
+  height: 130px;
   margin-left: 20px;
   background: rgba(244, 140, 6, 1);
   border-radius: 8px;
   flex-wrap: wrap; 
   display: flex;
-  flex-direction: row; 
   justify-content:space-between; 
   align-items: center;       
 }
@@ -200,13 +199,10 @@
 .parent_6  {
   width: 450px;
   height: 130px ;
-  margin-top: 30px;
-  margin-left: 20px;
   background: rgba(244, 140, 6, 1);
   border-radius: 8px;
   flex-wrap: wrap; 
-  display: flex;
-  flex-direction: row; 
+  display: flex; 
   justify-content:center; 
   align-items: center;    
 }  
@@ -227,5 +223,4 @@
   width: 200px;
   height: 17px;
   border-radius: 3px;
-  
 }
