@@ -58,7 +58,7 @@
   padding: 20px;
   margin: 10px;
   width: 30px;
-  min-height: 78px;
+  min-height: 60px;
   border-radius: 3px;    
 }
   
@@ -155,37 +155,43 @@
   display: flex;
   flex-direction: row; 
   justify-content:space-between; 
-  align-items: baseline;       
+  align-items: center;       
 }
 
 .child_A {
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
-  margin: 10px;
+  margin-left: 70px;
   width: 30px;
   height: 45px;
   border-radius: 3px;
-  color: aliceblue;    
+  color: aliceblue;
+  white-space: nowrap;
+  font-size: 10px;   
 }
+
 
 .child_B {
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
-  margin: 10px;
+  margin-right: 70px;
   width: 30px;
   height:17px;
   border-radius: 3px;
-  color: aliceblue;    
+  color: aliceblue; 
+  white-space: nowrap;
+  font-size: 10px;    
 }
 
 .child_C {
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
-  margin: 10px;
+  margin-right: 70px;
   width: 30px;
   height: 45px;
   border-radius: 3px;
-  color: aliceblue;    
+  color: aliceblue; 
+  white-space: nowrap;   
 }
 
 
@@ -218,17 +224,8 @@
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
   margin: 10px;
-  width: 30px;
+  width: 200px;
   height: 17px;
   border-radius: 3px;
-  flex: 1; 
-}
-
-.child_c {
-  background-color: rgba(157, 2, 8, 1);
-  padding: 20px;
-  margin: 10px;
-  width: 30px;
-  height: 17px;
-  border-radius: 3px;    
+  
 }
