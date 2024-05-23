@@ -138,7 +138,6 @@
 
 .child_3:nth-of-type(3) {
   align-self:flex-end;
-  margin-right: -40px;
   margin-bottom: 10px;
 }
 
@@ -150,17 +149,18 @@
   height: 130px;
   margin-left: 20px;
   background: rgba(244, 140, 6, 1);
-  border-radius: 8px;
-  flex-wrap: wrap; 
+  border-radius: 8px; 
   display: flex;
-  justify-content:space-between; 
-  align-items: center;       
+  flex-wrap: wrap;
+  justify-content:center; 
+  align-items: center;
+  
 }
 
 .child_A {
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
-  margin-left: 70px;
+  margin: 10px;
   width: 30px;
   height: 45px;
   border-radius: 3px;
@@ -173,7 +173,7 @@
 .child_B {
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
-  margin-right: 70px;
+  margin-right: 20px;
   width: 30px;
   height:17px;
   border-radius: 3px;
@@ -185,7 +185,7 @@
 .child_C {
   background-color: rgba(157, 2, 8, 1);
   padding: 20px;
-  margin-right: 70px;
+  margin-left: 20px;
   width: 30px;
   height: 45px;
   border-radius: 3px;
